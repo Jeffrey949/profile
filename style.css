@@ -1,0 +1,90 @@
+#Profile-picture {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+h1, h2, p {
+  font-family: Helvetica, sans-serif
+}
+
+body {
+  background-color: rgba(198, 209, 224, 0.8);
+}
+
+h1, h2 {
+  color: #575F7D;
+  padding-top: 3px;
+}
+
+.button{
+  background-color: white;
+  padding: 10px;
+  color: rgba(198, 209, 224, 1);
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 2s;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.card {
+  background-color: #E1D7C6;
+  padding: 30px;
+  margin: 40px 0;
+  border-radius: 10px;
+  border: solid ;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+li a{
+  font-size: 50px;
+  color: grey;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li a:hover{
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
